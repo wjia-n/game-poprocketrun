@@ -1,7 +1,7 @@
 name: poprocketrun
 description: "Pop Rocket Run - rocket pop-ups collect fuel"
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: ^3.13.5
@@ -39,3 +39,7 @@ flutter:
     - assets/sfx/win.wav
     - assets/sfx/lose.wav
     - assets/sfx/music_loop.wav
+  fonts:
+    - family: Audiowide
+      fonts:
+        - asset: assets/fonts/Audiowide-Regular.ttf
